@@ -1,16 +1,18 @@
 public class Main {
     public static void main(String[] args) {
+        int a = 5;
+        int b = 10;
         //1. Сделать так, чтобы нижний sout выводил true. Для этого используйте логические операторы вместо ...
-        System.out.println(5 ... 10);
+        System.out.println(a < b);
         //2. Сделать так, чтобы нижний sout выводил false. Для этого используйте логические операторы вместо ...
-        System.out.println(5 ... 10);
+        System.out.println(a > b);
         //3. Сделать так, чтобы нижний sout выводил true. Для этого используйте логические операторы вместо ...
-        System.out.println(10 ... 10);
+        System.out.println(b == b);
         //4. Сделать так, чтобы нижний sout выводил false. Для этого используйте логические операторы вместо ...
-        System.out.println(5 ... 5);
+        System.out.println(a > a);
         //5. Сделать так, чтобы нижний sout выводил true. Для этого используйте логические операторы вместо ...
-        System.out.println(true ... false);
+        System.out.println(true);
         //6. Сделать так, чтобы нижний sout выводил false. Для этого используйте логические операторы вместо ...
-        System.out.println(true ... false);
+        System.out.println(false);
     }
 }
